@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class HandCtrl : CloseWeaponCtrl
 {
+
+
+
+
     // 활성화 여부.
     public static bool isActivate = false;
 
