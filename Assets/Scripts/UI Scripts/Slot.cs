@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
+public class Slot : MonoBehaviour, 
+    IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, 
+    IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
     public Item item; // 획득한 아이템.
     public int itemCount; // 획득한 아이템의 개수.
